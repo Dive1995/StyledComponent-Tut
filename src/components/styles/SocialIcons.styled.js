@@ -19,5 +19,12 @@ export const StyledSocialIcons = styled.div`
     height: 40px;
     width: 40px;
     text-decoration: none;
+    opacity:0.5;
+    transition: 250ms all ease-in-out;
+
+    &:hover{
+      opacity:1;
+      transform:scale(1.1)
+    }
   }
 `
