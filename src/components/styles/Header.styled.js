@@ -3,13 +3,33 @@ import styled from "styled-components";
 export const StyledHeader = styled.header`
     padding: 40px 0;
     background-color: ${({ theme }) => theme.colors.header};
+    
+`
 
-    h1 {
-        color:blue;
-        font-size: 20px;
-    }
+export const Nav = styled.nav`
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
 
-    &:hover{
-        background-color: red;
+    @media(max-width: ${({ theme }) => theme.mobile}){
+        flex-direction: column;
+        gap: 40px
     }
 `
+
+export const Logo = styled.img``
+
+export const Image = styled.img`
+    width: 375px;
+`
+
+// export const Hero = styled.div`
+//     display: grid;
+//     grid-template-columns: 1fr 1fr;
+//     gap: 40px;
+
+//     .hero-text{
+
+//     }
+// `
