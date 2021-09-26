@@ -1,7 +1,7 @@
 import React from 'react'
 import { Container } from './styles/Container.styled'
 import {Button} from './styles/Button.styled'
-import { Hero, Image, Logo, Nav, StyledHeader } from './styles/Header.styled'
+import { Image, Logo, Nav, StyledHeader } from './styles/Header.styled'
 import { Flex } from './styles/Flex.styled'
 
 function Header() {
